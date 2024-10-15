@@ -1,0 +1,2 @@
+# ignore ALL files in ANY directory named temp
+project/realtek_amebaD_va0_example/EWARM-RELEASE/*
