@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\component\soc\realtek\amebad\misc\bsp\lib\common\IAR\lib_bootloader_hp.a</Path>
+            <Output>
+                <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\project\realtek_amebaD_va0_example\EWARM-RELEASE\Debug\Exe\km4_image\km4_bootloader.axf</Path>
+            </Output>
+            <Output>
+                <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\project\realtek_amebaD_va0_example\EWARM-RELEASE\Debug\List\km4_bootloader\km4_bootloader.map</Path>
+            </Output>
+            <Output>
+                <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\project\realtek_amebaD_va0_example\EWARM-RELEASE\Debug\Exe\km4_image\km4_bootloader_import_lib.o</Path>
+            </Output>
+        </Parent>
+    </Tool>
+    <Tool>
+        <Name>compiler</Name>
+        <Parent>
+            <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721dhp_boot_trustzonecfg.c</Path>
+            <Output>
+                <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\project\realtek_amebaD_va0_example\EWARM-RELEASE\Debug\List\km4_bootloader\cmsis_10847856019631765829.dir\rtl8721dhp_boot_trustzonecfg.s</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721d_bootcfg.c</Path>
+            <Output>
+                <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\project\realtek_amebaD_va0_example\EWARM-RELEASE\Debug\List\km4_bootloader\cmsis_10847856019631765829.dir\rtl8721d_bootcfg.s</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

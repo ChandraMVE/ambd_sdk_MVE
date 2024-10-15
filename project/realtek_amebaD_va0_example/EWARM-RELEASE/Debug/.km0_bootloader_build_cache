@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\component\soc\realtek\amebad\misc\bsp\lib\common\IAR\lib_bootloader_lp.a</Path>
+            <Output>
+                <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\project\realtek_amebaD_va0_example\EWARM-RELEASE\Debug\Exe\km0_image\km0_bootloader.axf</Path>
+            </Output>
+            <Output>
+                <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\project\realtek_amebaD_va0_example\EWARM-RELEASE\Debug\List\km0_bootloader\km0_bootloader.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+    <Tool>
+        <Name>compiler</Name>
+        <Parent>
+            <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\component\soc\realtek\amebad\fwlib\usrcfg\rtl8721d_bootcfg.c</Path>
+            <Output>
+                <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\project\realtek_amebaD_va0_example\EWARM-RELEASE\Debug\List\km0_bootloader\cmsis_10847856019631765829.dir\rtl8721d_bootcfg.s</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\component\soc\realtek\amebad\fwlib\ram_lp\rtl8721dlp_clk.c</Path>
+            <Output>
+                <Path>D:\Projects\Technosoft\BradFord\Software\CEL\CMP4020\ambd_sdk\project\realtek_amebaD_va0_example\EWARM-RELEASE\Debug\List\km0_bootloader\cmsis_10847856019631765829.dir\rtl8721dlp_clk.s</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>
